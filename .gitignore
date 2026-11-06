@@ -1,0 +1,13 @@
+# Large/licensed data and assets — see README for how to obtain these
+/data/
+/assets/
+
+# Local Claude Code config
+/.claude/settings.local.json
+
+# fluidsynth runtime files
+.fluidsynth.pid
+.fluidsynth.log
+.fluidsynth.fifo
+
+.DS_Store
