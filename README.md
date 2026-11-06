@@ -17,7 +17,7 @@ The [Sonatina Symphonic Orchestra](http://sso.mattiaswestlund.net/) soundfont by
 ## MIDI playback (FluidSynth + Frescobaldi, macOS)
 
 This project uses Frescobaldi (https://www.frescobaldi.org/download.html) for manual LilyPond editing.  You can
-wet up FluidSynth for audio playback of LilyPond scores:
+set up FluidSynth for audio playback of LilyPond scores:
 
 Install FluidSynth via Homebrew:
 
