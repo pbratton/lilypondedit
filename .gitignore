@@ -2,6 +2,15 @@
 /data/
 /assets/
 
+# Python build/package artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+
 # Local Claude Code config
 /.claude/settings.local.json
 

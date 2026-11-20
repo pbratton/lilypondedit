@@ -14,6 +14,21 @@ Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4
 
 The [Sonatina Symphonic Orchestra](http://sso.mattiaswestlund.net/) soundfont by Mattias Westlund, in SF2 format as packaged by [Symphony2](https://musescore.org/en/user/49541) ([source](https://musescore.org/en/node/20378)). Licensed under Creative Commons Sampling Plus 1.0. See `assets/README` for known playback quirks.
 
+## Python environment
+
+Code lives in `src/lilypondedit`, installed editable into a dedicated conda env:
+
+```
+conda create -n cmu-term-project python=3.11 -y
+conda activate cmu-term-project
+pip install -r requirements.txt
+pip install -e .
+```
+
+`transformers` is pinned to `4.46.3` — newer versions break the
+`Salesforce/codet5p-220m` tokenizer used in the modeling pipeline
+(see `data/bmdataset/modeling/README.md`).
+
 ## MIDI playback (FluidSynth + Frescobaldi, macOS)
 
 This project uses Frescobaldi (https://www.frescobaldi.org/download.html) for manual LilyPond editing.  You can
